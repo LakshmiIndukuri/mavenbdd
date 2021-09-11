@@ -11,5 +11,6 @@ Feature: Example feature
    Examples:
    |searchkey | searchkey2|
    |test	  |test2 |
-   |test21	  |test2 |
+   |test21fromlakshmi	  |test2 |
    
+  
