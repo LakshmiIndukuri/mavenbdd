@@ -11,12 +11,7 @@ Feature: Example feature
    Examples:
    |searchkey | searchkey2|
    |test	  |test2 |
-   |test21fromlakshmi2	  |test2 |
-      |test21fromgit2	  |test2 |
-      |test from lakshmilocal
-      |test from lakshmi
-      |test from again local
-      |test from git 
+   
 
 
    
