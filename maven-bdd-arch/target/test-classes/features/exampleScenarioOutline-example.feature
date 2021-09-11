@@ -16,6 +16,7 @@ Feature: Example feature
       |test from lakshmilocal
       |test from lakshmi
       |test from again local
+      |test from git 
 
 
    
