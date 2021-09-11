@@ -1,0 +1,3 @@
+Maven_BDD\maven_bdd_arch\hooks\Hooks.class
+Maven_BDD\maven_bdd_arch\steps\ExampleSteps.class
+Maven_BDD\maven_bdd_arch\acceptancetests\AllTests.class
