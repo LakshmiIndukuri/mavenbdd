@@ -17,6 +17,8 @@ Feature: Example feature
 
    //test from local
    //test from git2
+   //test2
+   
 
    
 
