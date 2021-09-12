@@ -14,7 +14,10 @@ Feature: Example feature
    |test	|test2
    
    //test from git edit 
+
    //test from local
+   //test from git2
+
    
 
 
