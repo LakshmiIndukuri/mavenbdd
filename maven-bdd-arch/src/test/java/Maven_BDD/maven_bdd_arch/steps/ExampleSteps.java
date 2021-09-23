@@ -19,17 +19,21 @@ public class ExampleSteps {
     private WebDriver webDriver;
    
     @Given("^I search for \"(.*)\" and \"(.*)\"$")
-    public void i_search_for(String arg1, String s2) {
+    public void i_search_for(String arg1, String s2) throws Exception {
     	webDriver.get("https://www.google.com/");
-    	webDriver.findElement(By.xpath("//input[@title='Search']")).sendKeys(arg1);
-    	webDriver.findElement(By.xpath("//input[@title='Search']")).sendKeys(s2);
+    	Thread.sleep(1000);
+    	//webDriver.findElement(By.xpath("//input[@title='Search']")).sendKeys(arg1);
+    	//webDriver.findElement(By.xpath("//input[@title='Search']")).sendKeys(s2);
     	//webDriver.findElement(By.xpath("//input[@title='Search']")).sendKeys(Keys.ENTER);
     }
 
     @Then("^I google should show me results!$")
-    public void i_google_should_show_me_results() {
+    public void i_google_should_show_me_results(String s) {
     	//webDriver.findElement(By.xpath("//*[text()='All']")).isDisplayed();
     	//webDriver.close();
+    	System.out.println(s);
+    	System.out.println(s);
+    	System.out.println(s);
     	
     }
 }
